@@ -45,10 +45,10 @@ def separar_valor(valor):
     if len(valor) != 4:
         raise ValueError("O valor deve ter 4 caracteres.")
     parte1 = valor[:2]
-    parte2 = valor[2:]
+    pt2 = valor[2:]
     parte1 = formata_dados_entrada(parte1)
-    parte2 = formata_dados_entrada(parte2)
-    return parte1, parte2
+    pt2 = formata_dados_entrada(pt2)
+    return parte1, pt2
 
 def pegar_dados(arq, id, idenf):
     
